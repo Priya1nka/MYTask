@@ -125,7 +125,7 @@ const Task = () => {
             >
               <CardContent>
                 <Typography variant="h6" color="primary">
-                  <ShowChartIcon /> Line Chart with Gradient
+                  <ShowChartIcon /> Line Chart 
                 </Typography>
                 <ResponsiveContainer width="100%" height={300}>
                   <AreaChart data={data.slice(-10)}>
@@ -164,7 +164,7 @@ const Task = () => {
             >
               <CardContent>
                 <Typography variant="h6" color="secondary">
-                  <BarChartIcon /> Bar Chart with Vibrant Colors
+                  <BarChartIcon /> Bar Chart 
                 </Typography>
                 <ResponsiveContainer width="100%" height={300}>
                   <BarChart data={data.slice(-10)}>
@@ -192,7 +192,7 @@ const Task = () => {
             >
               <CardContent>
                 <Typography variant="h6" color="error">
-                  <PieChartIcon /> Pie Chart with Custom Colors
+                  <PieChartIcon /> Pie Chart 
                 </Typography>
                 <ResponsiveContainer width="100%" height={300}>
                   <PieChart>
@@ -222,7 +222,7 @@ const Task = () => {
             >
               <CardContent>
                 <Typography variant="h6" style={{ color: "#ff8f00" }}>
-                  <RadarIcon /> Radar Chart with Improved Colors
+                  <RadarIcon /> Radar Chart 
                 </Typography>
                 <ResponsiveContainer width="100%" height={300}>
                   <RadarChart data={data.slice(-10)}>
